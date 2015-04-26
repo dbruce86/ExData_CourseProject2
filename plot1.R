@@ -1,3 +1,5 @@
+# Have total emissions from PM2.5 decreased in the United States from 1999 to 2008?
+
 require(dplyr)
 
 NEI <- readRDS("summarySCC_PM25.rds")
@@ -22,11 +24,11 @@ legend(
   bty = "n"
 )
 title(
-  main="Total emissions from PM2.5 have decreased in the United States from 1999 to 2008",
-  cex.main = 0.8,
+  main="Total emissions from PM2.5 have decreased \nin the United States from 1999 to 2008",
+  cex.main = 1,
   font.main= 4,
   col.main= "blue",
-  sub = "Plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.",
+  sub = "Plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008",
   cex.sub = 0.75,
   font.sub = 3,
   col.sub = "blue",
